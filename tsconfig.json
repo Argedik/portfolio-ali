@@ -3,5 +3,16 @@
         "esModuleInterop": true,
         "jsx" :"react-jsx",
         "allowSyntheticDefaultImports": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es6",
+        "allowJs": true,
+        "lib":[
+            "es2017",
+            "dom"
+        ]
     }
 }
